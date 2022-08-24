@@ -1,0 +1,214 @@
+.InputI {
+    font-size:16px;
+    border:none;
+    border-bottom:1px solid #c75b1c;
+}
+    .InputI:active {
+        border:1px solid #efb371;
+    }
+    .InputI:hover {
+        border:none;
+        border-bottom:1px solid #efb371;
+    }
+
+.ButtonI {
+    height:9mm;
+    width:44mm;
+    cursor:default;
+    background:white;
+    border:1px solid #c75b1c;
+}
+    .ButtonI:hover {
+        background:#efb371;
+    }
+
+    .ButtonF {
+    cursor:default;
+    background:white;
+    border:1px solid #118a0c;
+}
+    .ButtonF:hover {
+        background:#23cc36;
+    }
+
+.ButtonDel {
+    color:red;
+    font-weight:700;
+    background:none;
+}
+
+.Menu td{
+    text-align:center;
+    vertical-align:central;
+    border:none;
+    border-right:1px solid #c75b1c;
+    height:8mm;
+    width:36mm;
+    background:none;
+    cursor:default;
+    font-size:4mm;
+    border-bottom:1px solid #c75b1c;
+}
+    .Menu td:hover {
+        background:#efb371;
+    }
+
+    .MenuPod td{
+    text-align:center;
+    vertical-align:central;
+    border:none;
+    border-right:1px solid #c75b1c;
+    height:15mm;
+    width:35mm;
+    background:none;
+    cursor:default;
+    border-bottom:1px solid #c75b1c;
+    background:#f5ede5;
+}
+    .MenuPod td:hover {
+        background:#efb371;
+    }
+
+.zalipanie td {
+    z-index: 1;
+    top: 0;
+    position: sticky;
+    background: #f3eee8;
+}
+.zalipanie1 td {
+    z-index: 1;
+    top: 10mm;
+    position: sticky;
+    background: #f3eee8;
+}
+
+.zalipanie2 td {
+    z-index: 1;
+    top: 20mm;
+    position: sticky;
+    background: #f3eee8;
+}
+.Polosa tbody tr {
+    cursor:default;
+    height:8mm;
+    border-bottom:1px solid #c75b1c;
+}
+    .Polosa tbody tr:hover {
+        background:#efb371;
+    }
+
+.Polosa2 {
+    cursor:default;
+    height:8mm;
+    border-bottom:1px solid #c75b1c;
+    background:#dcd8d8;
+}
+    .Polosa2:hover {
+        background:#efb371;
+    }
+
+    .Polosa3 {
+    cursor:default;
+    height:8mm;
+    border-bottom:1px solid #c75b1c;
+    background:#939393;
+}
+    .Polosa3:hover {
+        background:#efb371;
+    }
+        .PolosaGreen {
+    cursor:default;
+    height:8mm;
+    border-bottom:1px solid #c75b1c;
+    background:#a5fba4;
+}
+    .PolosaGreen:hover {
+        background:#efb371;
+    }
+            .PolosaRed {
+    cursor:default;
+    height:8mm;
+    border-bottom:1px solid #c75b1c;
+    background:#f37c7c;
+}
+    .PolosaRed:hover {
+        background:#efb371;
+    }
+.InputCh {
+    width:4mm;
+    height:4mm;
+    border:1px solid #c75b1c;
+    background:none;
+}
+
+
+.modalDialog {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index:99;
+    top: 0;
+    left: 0;
+    display:none;
+}
+
+.ModalLoad {
+    margin:10mm;
+    padding:10mm;
+    background:white;
+    position:absolute;
+    max-height:86%;
+    overflow-y:auto;
+}
+
+.ssilka {
+    cursor:default;
+}
+    .ssilka:hover {
+        font-weight:700;
+    }
+
+.GrafikEdit {
+    cursor:default;
+}
+
+.GrafikEdit:hover {
+    background:#b5f749;
+}
+
+.TabelEdit {
+    cursor:default;
+}
+
+.TabelEdit:hover {
+    background:#b5f749;
+}
+
+.BistriNabor {
+    list-style:none;
+    cursor:default;
+}
+    .BistriNabor li:hover {
+        background:#b5f749;
+    }
+.noprint {
+}
+
+@media print {
+    .Menu {
+        display:none;
+    }
+    .MenuPod {
+        display:none;
+    }
+    .ButtonI {
+        display:none;
+    }
+    .ButtonDel {
+        display:none;
+    }
+    .noprint {
+        display:none;
+    }
+}

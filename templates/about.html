@@ -1,0 +1,340 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Условные обозначения
+{% endblock %}
+
+
+{% block body %}
+
+<br>
+
+<table class="Polosa" style="border-collapse:collapse; margin-left:10mm; margin-right:10mm;">
+    <thead style="font-weight:700; text-align:center;">
+        <tr>
+            <td>#</td>
+            <td>Буквенный код</td>
+            <td>Наименование</td>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">1</td>
+                    <td  style="text-align:center;"></td>
+                    <td></td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">2</td>
+                    <td  style="text-align:center;">А</td>
+                    <td>Отпуска без сохранения заработной платы по семейно-бытовым и другим уважительным причинам, предоставляемые по договоренности между работником и нанимателем, по инициативе нанимателя</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">3</td>
+                    <td  style="text-align:center;">Б</td>
+                    <td>Временная нетрудоспособность (кроме случаев, предусмотренных кодами Т и Х) </td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">4</td>
+                    <td  style="text-align:center;">ВУ</td>
+                    <td>Доплата за работу с вредными условиями труда</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">5</td>
+                    <td  style="text-align:center;">Г</td>
+                    <td>Дни неявок работников, освобожденных временно от работы в связи с выполнением государственных или общественных обязанностей, в случаях, предусмотренных законодательством</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">6</td>
+                    <td  style="text-align:center;">ГБ</td>
+                    <td>Дни неявок работников, отвлеченных на устранение последствий стихийных бедствий</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">7</td>
+                    <td  style="text-align:center;">ГС</td>
+                    <td>Дни неявок на работу работников, находящихся под следствием до решения суда</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">8</td>
+                    <td  style="text-align:center;">ГЧ</td>
+                    <td>Военно-учебные сборы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">9</td>
+                    <td  style="text-align:center;">Д</td>
+                    <td>Дни неявок на работу работников, являющихся донорами, для обследования и сдачи крови и ее компонентов, дополнительный день отдыха, предоставляемый после этого или используемый в другое время</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">10</td>
+                    <td  style="text-align:center;">Д!</td>
+                    <td>Оплата донорского дня (безвозмездная сдача) за счет нанимателя</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">11</td>
+                    <td  style="text-align:center;">ДМ</td>
+                    <td>дополнительный свободный от работы день матери</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">12</td>
+                    <td  style="text-align:center;">ДМГ</td>
+                    <td>Дополнительный свободный от работы день матери (отцу, опекуну, попечителю), воспитывающей (воспитывающему) ребенка-инвалида в возрасте до восемнадцати лет или воспитывающей (воспитывающему) двоих и более детей в возрасте до шестнадцати лет</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">13</td>
+                    <td  style="text-align:center;">ДО</td>
+                    <td>Кратковременные отпуска без сохранения заработной платы, которые наниматель обязан предоставить работнику</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">14</td>
+                    <td  style="text-align:center;">ДПО</td>
+                    <td>Без сохраниения  з/п согласно ЕКД</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">15</td>
+                    <td  style="text-align:center;">З</td>
+                    <td>Неявки из-за забастовок</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">16</td>
+                    <td  style="text-align:center;">К</td>
+                    <td>Служебные командировки</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">17</td>
+                    <td  style="text-align:center;">ЛО</td>
+                    <td>Социальный отпуск с сохранением заработной платы для лечения и иных личных потребностей работника</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">18</td>
+                    <td  style="text-align:center;">МО</td>
+                    <td>Неявки на работу в связи с нахождением в медицинских учреждениях на обследовании или осмотре работника, обязанного проходить такие обследования</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">19</td>
+                    <td  style="text-align:center;">НН</td>
+                    <td>Неявки по невыясненным причинам (до выяснения обстоятельств)</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">20</td>
+                    <td  style="text-align:center;">О</td>
+                    <td>Трудовой отпуск</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">21</td>
+                    <td  style="text-align:center;">ОЖ</td>
+                    <td>Дополнительный отпуск, предоставляемый по уходу за ребенком до достижения им возраста трех лет</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">22</td>
+                    <td  style="text-align:center;">ОР</td>
+                    <td>Отстранение от работы без сохранения заработной платы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">23</td>
+                    <td  style="text-align:center;">ОТ</td>
+                    <td>Дополнительный социальный отпуск, предусмотренный коллективным договором сверх установленного законодательством Республики Беларусь</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">24</td>
+                    <td  style="text-align:center;">ПР</td>
+                    <td>Прогулы и другие неявки без уважительной причины</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">25</td>
+                    <td  style="text-align:center;">Р</td>
+                    <td>Отпуска по беременности и родам</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">26</td>
+                    <td  style="text-align:center;">РА</td>
+                    <td>Ремонт</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">27</td>
+                    <td  style="text-align:center;">РБВ</td>
+                    <td>Разъездные без ежедневного возврата</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">28</td>
+                    <td  style="text-align:center;">РВД</td>
+                    <td>Часы работы в выходные дни (нерабочие)</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">29</td>
+                    <td  style="text-align:center;">РД</td>
+                    <td>Разделение рабочего дня на части</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">30</td>
+                    <td  style="text-align:center;">РЕВ</td>
+                    <td>Разъездные с ежедневным возвратом</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">31</td>
+                    <td  style="text-align:center;">РТ</td>
+                    <td>Реализация товаров</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">32</td>
+                    <td  style="text-align:center;">С</td>
+                    <td>Сверхурочные часы работы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">33</td>
+                    <td  style="text-align:center;">СК</td>
+                    <td>Временное освобождение и направление на физкультурно-оздоровительные, спортивные, культурно-массовые мероприятия, соревнования, конкурсы, смотры-конкурсы, учения и тренировки, краткосрочную профсоюзную учебу и другое согласно единого коллективного договора </td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">34</td>
+                    <td  style="text-align:center;">СР</td>
+                    <td>оплата по среднему заработку</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">35</td>
+                    <td  style="text-align:center;">СХ</td>
+                    <td>Временное отвлечение на сельскохозяйственные работы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">36</td>
+                    <td  style="text-align:center;">Т</td>
+                    <td>Неоплачиваемая нетрудоспособность в случаях, предусмотренных законодательством Республики Беларусь</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">37</td>
+                    <td  style="text-align:center;">У</td>
+                    <td>Отпуска в связи с обучением с сохранением средней заработной платы по основному месту работы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">38</td>
+                    <td  style="text-align:center;">УБЗ</td>
+                    <td>Отпуска в связи с обучением без сохранения заработной платы</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">39</td>
+                    <td  style="text-align:center;">УД</td>
+                    <td>Сокращенная продолжительность рабочего времени для обучающихся без отрыва от производства</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">40</td>
+                    <td  style="text-align:center;">УК</td>
+                    <td>Курсы повышения квалификации</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">41</td>
+                    <td  style="text-align:center;">УТС4</td>
+                    <td>Доплата за управление транспортным средством 4%</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">42</td>
+                    <td  style="text-align:center;">УТС5</td>
+                    <td>Доплата за управление транспортным средством 5%</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">43</td>
+                    <td  style="text-align:center;">УТС6</td>
+                    <td>Доплата за управление транспортным средством 6%</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">44</td>
+                    <td  style="text-align:center;">Х</td>
+                    <td>Неявки на работу в связи с карантином или уходом за больными, оформленные справками лечебных учреждений</td>
+            </tr>
+            <tr>
+
+
+                    <td  style="text-align:right; padding-right:2mm;">45</td>
+                    <td  style="text-align:center;">ЧК</td>
+                    <td>перерывы для кормления ребенка</td>
+            </tr>
+    </tbody>
+</table>
+<br>
+<br>
+{% endblock %}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="/Personal/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="/Personal/Scripts/bootstrap.min.js"></script>
+
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                <img class="mb-2" src="{{ url_for('static', filename='image/unnamed.png') }}" alt="" width="40" height="40">
+            <span class="fs-4">Персонал</span>
+        </a>
+
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/">Главная страница</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/">Администратор</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/PodrazdelenieSotrEdit">График</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/about">Условные обозначения</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/tabel">Табель</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/users">Пользователи</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/ShablonList">Шаблоны</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="/sing-in>Регистрация</a>
+            <a class="py-2 text-dark text-decoration-none" href="#">Выйти</a>
+        </nav>
+    </div>
+
+</header>
+
+<body>
+    
+    {% block body %}{% endblock %}
+</body>
+<footer class="container pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+        <div class="col-12 col-md">
+            <img class="mb-2" src="{{ url_for('static', filename='image/unnamed.png') }}" alt="" width="24" height="24">
+            <small class="d-block mb-3 text-muted">©ValetovAV 2022–2022</small>
+        </div>
+    </div>
+</footer>
+</html>
