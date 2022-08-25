@@ -17,7 +17,7 @@
 <header>
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-                <img class="mb-2" src="{{ url_for('static', filename='image/unnamed.png') }}" alt="" width="40" height="40">
+            <img class="mb-2" src="{{ url_for('static', filename='image/unnamed.png') }}" alt="" width="40" height="40">
             <span class="fs-4">Персонал</span>
         </a>
 
@@ -30,15 +30,15 @@
             <a class="me-3 py-2 text-dark text-decoration-none" href="/users">Пользователи</a>
             <a class="me-3 py-2 text-dark text-decoration-none" href="/ShablonList">Шаблоны</a>
             <a class="me-3 py-2 text-dark text-decoration-none" href="/sing-in>Регистрация</a>
-            <a class="py-2 text-dark text-decoration-none" href="#">Выйти</a>
+            <a class=" py-2 text-dark text-decoration-none" href="#">Выйти</a>
         </nav>
     </div>
 
 </header>
 
 <body>
-    
-    {% block body %}{% endblock %}
+
+{% block body %}{% endblock %}
 </body>
 <footer class="container pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
