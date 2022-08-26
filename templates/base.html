@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">-->
     <link rel="stylesheet" href="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}">
     <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">-->
 
@@ -20,17 +20,17 @@
                 <td onclick="location.href='/' ">
                     <img class="mb-2" src="{{ url_for('static', filename='image/unnamed.png') }}" alt="" width="40"
                          height="40">
-                    <span class="fs-4">Персонал</span>
+<!--                    <span class="fs-4">Персонал</span>-->
                 </td>
                 <td onclick="location.href='/'">Главная</td>
-                <td onclick="location.href='/'">Администратор</td>
+                <td onclick="location.href='/admin'">Администратор</td>
                 <td onclick="location.href='/PodrazdelenieSotrEdit'">График</td>
                 <td onclick="location.href='/about'">Условные обозначения</td>
                 <td onclick="location.href='/tabel'">Табель</td>
                 <td onclick="location.href='/users'">Пользователи</td>
                 <td onclick="location.href='/ShablonList'">Шаблоны</td>
-                <td onclick="location.href='/sing-in'">Регистрация</td>
-                <td onclick="me-3 py-2 text-dark text-decoration-none" href="/sing-in">Регистрация</td>
+                <td onclick="location.href='/sing-in'">Войти</td>
+                <td onclick="location.href='/users'">Регистрация</td>
                 <td onclick="location.href='/'">Выйти</td>
             </nav>
 
