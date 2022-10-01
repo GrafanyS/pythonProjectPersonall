@@ -28,6 +28,7 @@ def index():
 def admin():
     return render_template("admin.html")
 
+
 @app.route('/grafik')
 def grafik():
     return render_template("grafik.html")
